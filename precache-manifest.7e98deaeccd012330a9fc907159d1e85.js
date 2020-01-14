@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4055ee58aaeac3442fc2f76eb4b09c4",
+    "revision": "8b5ebccb04a9bf00117887661208b230",
     "url": "/real_time_iss_tracker/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/real_time_iss_tracker/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "228b0981fd6d44b94082",
+    "revision": "133a578fccb04ffca014",
     "url": "/real_time_iss_tracker/static/css/main.7b524c44.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/real_time_iss_tracker/static/js/2.1b44db52.chunk.js"
   },
   {
-    "revision": "228b0981fd6d44b94082",
-    "url": "/real_time_iss_tracker/static/js/main.38818cba.chunk.js"
+    "revision": "133a578fccb04ffca014",
+    "url": "/real_time_iss_tracker/static/js/main.f341a811.chunk.js"
   },
   {
     "revision": "2efe0adc4df56dea5a50",
