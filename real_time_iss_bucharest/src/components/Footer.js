@@ -1,4 +1,5 @@
 import React from "react";
+import '../App.css'
 
 const Footer = () => {
   return (
@@ -9,10 +10,11 @@ const Footer = () => {
         width: "100%",
         // top: "50vh",
         height: "100px",
-        background: '#f8f9fa'
+        background: '#343a40',
+        color:"#fff"
       }}
     >
-      <div className="container">
+      <div className="container footer">
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-black">
             <p style={{ fontSize: "27px" }}>

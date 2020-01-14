@@ -37,14 +37,7 @@ const Header = (props) => {
             spy={true} smooth={true}
             offset={0} duration={500}
           >About ISS</Link></Nav.Link>
-        <Nav.Link href="#">
 
-          <Link
-            activeClass="inactive"
-            to="Carousel"
-            spy={true} smooth={true}
-            offset={-200} duration={500}
-          >Carousel</Link></Nav.Link>
         <Nav.Link href="#">
 
           <Link

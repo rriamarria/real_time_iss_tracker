@@ -1,7 +1,7 @@
 $enable-responsive-font-sizes: true;
 
 .welcome {
-    min-height: 90vh;
+    height: 100vh;
 }
 
 .welcome-main {
@@ -26,27 +26,37 @@ h2 {
     color: #f7f7f7;
 }
 
-@media (min-width: 576px) and (max-width: 1200px) {
-    //Manage Display Headers for Mobile Devices
-        .display-3 {
-            font-size: 3.5rem;
-            font-weight: 300;
-            line-height: 1.0;
-        }
+@media only screen and (max-width: 993px) {
+    .welcome-main{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
-
-@media (min-width: 576px) and (max-width: 993px) {
+    .welcomeContentContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
     .display-3 {
         font-size: 3rem;
         font-weight: 300;
         line-height: 1.0;
     }
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-    .display-3 {
-        font-size: 2.5rem;
-        font-weight: 300;
-        line-height: 1.0;
+    .element{
+        width: 200px;
+        height: 200px;
+    }
+    .logo{
+        width: 200px;
+        height: 200px;
+        transform-style: unset!important;
     }
 }
+
+// @media (min-width: 576px) and (max-width: 768px) {
+//     .display-3 {
+//         font-size: 2.5rem;
+//         font-weight: 300;
+//         line-height: 1.0;
+//     }
+// }

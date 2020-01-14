@@ -15,14 +15,13 @@ class Welcome extends Component {
        return(
        <div className='welcome container-fluid row align-items-center p-3 mb-2 bg-light text-dark' id={this.props.id}>
            <div className="container welcome-main">
-               <div className="row align-items-center">
+               <div className="row align-items-center welcomeContentContainer">
                    <div className="col-5">
                        <div className="logo">
                            <Logo />
                        </div>
                    </div>
-                   <div className="col-7">
-                       <div className="row">
+                   <div className="col-7 ">
                            <h1 className="display-3">Real-time ISS tracker</h1>
                            <h2 className="lead">
                            The International Space Station is a space station in low Earth orbit, at approximately 400 km from the ground.<br/>
@@ -37,7 +36,6 @@ class Welcome extends Component {
                                        <button className="welcome-call-to-action col-4 btn btn-dark" onClick={this.launchTracking.bind(this)}>Track ISS</button>
                                    </Link>
                                        <button className="welcome-call-to-action col-4 btn btn-primary" onClick={this.toLivestream.bind(this)}>Watch live feed</button>
-                       </div>
                    </div>
                </div>
            </div>

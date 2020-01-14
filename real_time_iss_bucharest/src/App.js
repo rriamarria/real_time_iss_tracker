@@ -70,8 +70,8 @@ class App extends React.Component {
             <NewsNumberOfPeople  className='newCard'/>
           </section>
           <GalleryCarousel id='Carousel' />
-          <Newsletter callBack={this.dataFn.bind(this)} id='newsletter' />
-          <Modal show={this.state.checkBoxThatOpensModal} />
+          {/* <Newsletter callBack={this.dataFn.bind(this)} id='newsletter' />
+          <Modal show={this.state.checkBoxThatOpensModal} /> */}
           <Footer />
         </div>
       );
