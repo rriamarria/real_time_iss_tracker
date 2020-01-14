@@ -2,7 +2,7 @@
 
 **gh-pages link:** https://olivierggr.github.io/real_time_iss_tracker/ 
 
-## Built during my time at Wild Code School with two other students
+### Built during my time at Wild Code School with two other students
 ### Duration of build : 1 week
 
 **Stack : **
