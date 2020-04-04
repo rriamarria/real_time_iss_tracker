@@ -7,14 +7,14 @@
 
 
 ###  Stack:
-###    - HTML/CSS
-###    - Bootstrap
-###    - JS (React) 
-###    * Gmap
-###    * Axios
+####    - HTML/CSS
+####    - Bootstrap
+####    - JS (React) 
+####    * Gmap
+####    * Axios
 
 
-##### Deployed with GitHub Pages
+###### Deployed with GitHub Pages
 
 
 
